@@ -23,14 +23,21 @@
           GitHub
         </a>
       </div>
+      <MessageList :messages="messages"/>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import MessageList from '../components/MessageList.vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  data: () => ({ messages: ['Cat'] }),
+  components: {
+    MessageList
+  }
+})
 </script>
 
 <style>

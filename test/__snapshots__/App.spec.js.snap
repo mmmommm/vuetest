@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.test.js has the expected html structure 1`] = `
+<div
+  class="container"
+>
+  <div>
+    <logo />
+     
+    <h1
+      class="title"
+    >
+      
+      fronttest
+    
+    </h1>
+     
+    <div
+      class="links"
+    >
+      <a
+        class="button--green"
+        href="https://nuxtjs.org/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        
+        Documentation
+      
+      </a>
+       
+      <a
+        class="button--grey"
+        href="https://github.com/nuxt/nuxt.js"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        
+        GitHub
+      
+      </a>
+    </div>
+     
+    <messagelist-stub
+      messages="Cat"
+    />
+  </div>
+</div>
+`;
